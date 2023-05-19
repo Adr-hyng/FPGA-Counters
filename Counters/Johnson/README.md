@@ -6,3 +6,5 @@
 - inputs for clock, button, and reset, and an output for LEDs. 
 - Constants are defined for initialization and pulse counting. The main body of the code consists of an initial block for setting initial values of registers and an always block for handling positive edge of the clock and negative edge of the reset. The always block contains logic for debouncing the button input by counting pulses when the button is pressed or not pressed. When a certain pulse count is reached (2 million in this case), the counter is updated accordingly. 
 - The button state is also updated based on whether the button is pressed or not. Finally, the counter's values are assigned to the LEDs
+
+![Sample](https://farm6.staticflickr.com/5458/30223580462_8552846c5c_o.jpg)

@@ -23,3 +23,11 @@
 3. The button release is handled similarly with the counter_not_pressed register.
 4. The debouncing mechanism ensures that the count is updated only once per button press and release, even if the button oscillates during the transition.
 5. The counter value is displayed on the LEDs with an inversion operation, which turns on the corresponding LEDs for each bit set to 0 in the count value.
+
+## Truth Table and Timing Diagram
+
+### Up counter:
+- ![Sample](https://www.engineersgarage.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-11-at-2.14.37-PM.png)
+
+## Down counter Timing Diagram:
+- ![Sample](https://www.brightways.org/images/asychronous-4bit-down-timing.png)
